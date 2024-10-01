@@ -9,8 +9,10 @@
     "node": ">=18.x"
   },
   "scripts": {
-    "start": "node app.js",
-    "register": "node commands.js",
+    "start_old": "node app.js",
+    "start": "node discordjs_app.js",
+    "register_old": "node commands.js",
+    "register": "node discordjs_commands.js",
     "dev": "nodemon app.js"
   },
   "author": "Shay DeWael",
